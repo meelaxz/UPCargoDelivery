@@ -1,0 +1,30 @@
+.aboutUs{
+    grid-column-start: auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textAbout hr{
+    margin: 0px 0px 0px 0px ;
+    display: flex;
+    text-align: left;
+    width: 85px;
+    height: 2px;
+    background-color: #89C249;
+}
+
+.textAbout h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.textAbout p{
+    font-size: 18px;
+    font-weight: 300;
+}

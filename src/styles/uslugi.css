@@ -1,0 +1,105 @@
+.nameUslugi h3{
+    padding-top: 105px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.nameUslugi hr{
+    width: 85px;height: 2px;background-color: #E58D35;
+    margin-left: auto;margin-right: auto;text-align: center;border: none;
+}
+
+
+
+.uslugi{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 1820px;
+    height: 794px;
+    background-color: #363A4D;
+    border-radius: 20px;
+}
+
+.uslugiCArds{
+    display: flex;
+    width: 1140px;
+    height: 482px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.uslugiContent h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.uslugiContent h5{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.two{
+    padding-left: 30px;
+}
+.three{
+    padding-left: 30px;
+}
+
+
+.arrowsUslugi{
+    align-items: center;
+    position: absolute;
+    margin-top: 23%;
+    right: 11.5%;
+    width: 1323px;
+    display: flex;
+}
+
+
+.uslugiCard{
+    position: relative;
+    border-radius: 20px;
+    width: 360px;
+    height: 482px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.arrowsUslugi .arrow1{
+    transform: rotate(180deg);
+}
+
+.arrowsUslugi .arrow2{
+    margin-left: 1231px;
+}
+
+
+
+
+
+
+.uslugiContent{
+    left: 80px;
+    top: 240px;
+    position: absolute;
+    width: 313px;
+    text-align: left;
+}
+
+.uslugiCard button{
+    text-align: center;
+    background: none;
+    border: #E58D35 2px solid;
+    width: 153px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+}
+

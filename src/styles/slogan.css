@@ -1,0 +1,101 @@
+
+
+.slogan{
+    position: relative;
+    width: 1820px;
+    height: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/sloganBGI.svg");
+}
+
+.arrows{
+    position: relative;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1523px;
+    display: flex;
+}
+
+.slogan .arrow1{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.slogan .arrow2{
+    margin-left: 1400px;
+    display: inline-block;
+}
+
+
+
+
+
+.sloganText{
+    margin-left: 340px;
+    margin-top: 160px;
+    width: 465px;
+    height: 310px;
+    color: white;
+    text-align: left;
+}
+
+.sloganText h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: bold;
+}
+.sloganText h3{
+    font-family: 'Proxima Nova';
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.sloganText button{
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #E58D35;
+    width: 293px;
+    height: 70px;
+}
+
+.sloganText button img{
+    margin-right: 21px;
+}
+
+
+
+
+.arrow1:hover, .arrow2:hover{
+    cursor: pointer;
+    opacity: 60%;
+    transition: opacity 0.4s linear
+}
+
+.indicators{
+    margin-top: 150px;
+    width: 110px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indicator{
+    margin-left: 26px;
+}
+
+.indicatorActive{
+    margin-left: 26px;
+}

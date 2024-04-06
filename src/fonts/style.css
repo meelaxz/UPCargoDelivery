@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./ProximaNova-Regular.woff') format('woff');
+  src: url('./ProximaNova-Regular.woff2') format('woff2');
+  }
+
+   body .slogan h1, div h2, div h3, div h4, div h5, div h6, div p, div span, div strong, div ul li, header nav a{
+    font-family:'Proxima Nova', sans-serif;
+  }

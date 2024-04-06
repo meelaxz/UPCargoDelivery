@@ -1,0 +1,53 @@
+.ourPlus{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1820px;
+    height: 725px;
+    background-image: url('../images/ourPluseBGI.svg');
+    border-radius: 30px;
+    border: none;
+}
+.ourPlusText hr{
+    width: 85px;
+    height: 2px;
+    background-color: #E58D35;
+    border: none;
+}
+.ourPlusText{
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.punkts{
+    padding-top: 50px;
+    width: 1142px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.punkt{
+    text-align: center;
+}
+
+.punkt img{
+    width: 113px;
+    height: 113px;
+}
+
+.punkt h3{
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.punkt:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.3s linear;
+}

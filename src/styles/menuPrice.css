@@ -1,0 +1,191 @@
+.calk{
+    width: 1207px;
+    height: 917px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menuPrice{
+    position: relative;
+    width: 626px;
+    height: 597px;
+    background-color: #363A4D;
+    border-radius: 20px;
+}
+
+.menuPrice input{
+    width: 250px;
+    height: 55px;
+}
+
+
+.calkText hr{
+    left: 400px;
+    top: 50px;
+    position: absolute;
+    border: none;
+    width: 47px;
+    height: 2px;
+    background-color: #89C249;
+}
+
+.calkText h2{
+    position: relative;
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.step{
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: -5%;
+    height: 60px;
+}
+
+.stepActive{
+    margin-bottom: 150px;
+    margin-left: 50px;
+    font-size: 24px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    background-color: #89C249;
+}
+
+.step2{
+    margin-left: 40px;
+    font-size: 24px;
+    color: #BFBFBF;
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    background-color: #282B38;
+}
+
+.step3{
+    margin-left: 40px;  
+    font-size: 24px;
+    color: #BFBFBF;
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    background-color: #282B38;
+}
+
+.stepActive p{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.step2 p{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.step3 p{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.menuGrid{
+    padding-top: 50px;
+    padding-left: 30px;
+    justify-content: center;
+    grid-auto-columns: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.twoWords{
+    display: flex;
+}
+
+.check input{
+    width: 24px;
+    height: 24px;
+}
+
+.checkInp{
+    display: flex;
+}
+
+.checkInp label{
+    margin-top: 6px;
+    align-items: center;
+}
+
+.check{
+    margin-top: 30px;
+    align-items: center;
+}
+
+.input p{
+    margin-bottom: 5px;
+}
+
+.math{
+    margin-left: 50px;
+    color: #E58D35;
+    text-decoration: underline;
+}
+
+.imageSendText{
+    margin-top: 34px;
+    width: 526px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.delImage{
+    color: #E53535;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.inputImage{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 526px;
+    height: 43px;
+    background-color: none;
+    border: 2px dashed rgba(255, 255, 255, 0.449);
+}
+
+.inputImage p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.inputImage:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: transform 0.3s linear;
+}
+
+.menuButton button{
+    margin-top: 26px;
+    font-style: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #E58D35;
+    width: 253px;
+    height: 68px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.menuButton button img{
+    padding-left: 90px;
+}
+

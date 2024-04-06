@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Thin'), local('Proxima-Nova-Thin'),
+        url('ProximaNovaT-Thin.woff2') format('woff2'),
+        url('ProximaNovaT-Thin.woff') format('woff'),
+        url('ProximaNovaT-Thin.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+hr{
+    border: none;
+}
+
+body{
+    background-color: #282B38;
+    color: white;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    border: none;
+    background-color: #fff;
+    color: #CBCBCB;
+    padding-left: 20px;
+}
+
+button{
+    border-radius: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    color: black;
+    transition: transform 0.2s linear;
+}
+
+a:hover{
+    color: rgb(63, 128, 128);
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.logoHeader:hover{
+    cursor: pointer;
+}
